@@ -11,6 +11,10 @@ figure, graph = plt.subplots()
 
 graph.plot(x,y)
 graph.set_title(f'Quadratic formula graph')
+# label the axis
+graph.set_xlabel('x')
+graph.set_ylabel('y')
+
 
 
 graph.grid(True)
